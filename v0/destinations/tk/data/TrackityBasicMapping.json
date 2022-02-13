@@ -1,0 +1,46 @@
+[
+  {
+    "sourceKeys": "userId",
+    "destKey": "client_id"
+  },
+  {
+    "sourceKeys": "userId",
+    "destKey": "device_idfv"
+  },
+  {
+    "sourceKeys": "messageId",
+    "destKey": "event_uni_key"
+  },
+  {
+    "sourceKeys": "event",
+    "destKey": "action_name"
+  },
+  {
+    "sourceKeys": "context.app.name",
+    "destKey": "app_name"
+  },
+  {
+    "sourceKeys": "context.app.version",
+    "destKey": "app_version"
+  },
+  {
+    "sourceKeys": "context.app.build",
+    "destKey": "app_build_version"
+  },
+  {
+    "sourceKeys": "context.app.namespace",
+    "destKey": "bundle_identifier"
+  },
+  {
+    "sourceKeys": "context.device.id",
+    "destKey": "device_idfa"
+  },
+  {
+    "sourceKeys": "context.device.manufacturer",
+    "destKey": "device_manufacturer"
+  },
+  {
+    "sourceKeys": "context.device.model",
+    "destKey": "device_type"
+  }
+]
