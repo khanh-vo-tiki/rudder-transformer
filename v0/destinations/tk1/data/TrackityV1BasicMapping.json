@@ -1,10 +1,23 @@
 [
   {
-    "sourceKeys": "userId",
+    "sourceKeys": [
+      "anonymousId",
+      "userId"
+    ],
     "destKey": "client_id"
   },
   {
-    "sourceKeys": "userId",
+    "sourceKeys": [
+      "anonymousId",
+      "userId"
+    ],
+    "destKey": "user_id"
+  },
+  {
+    "sourceKeys": [
+      "anonymousId",
+      "userId"
+    ],
     "destKey": "device_idfv"
   },
   {
@@ -32,7 +45,7 @@
     "destKey": "bundle_identifier"
   },
   {
-    "sourceKeys": "context.device.id",
+    "sourceKeys": "context.device.advertisingId",
     "destKey": "device_idfa"
   },
   {
@@ -42,5 +55,13 @@
   {
     "sourceKeys": "context.device.model",
     "destKey": "device_type"
+  },
+  {
+    "sourceKeys": "context.device.token",
+    "destKey": "device_token"
+  },
+  {
+    "sourceKeys": "context.network.carrier",
+    "destKey": "network_carrier"
   }
 ]
